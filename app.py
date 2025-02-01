@@ -22,7 +22,7 @@ Please fill in the details below to get a prediction.
 """)
 
 # Load the dataset for dropdown options
-df = pd.read_csv("C:/Users/uttam/Downloads/after_data_engineering.xls")
+df = pd.read_csv("after_data_engineering.xls")
 
 # Create two columns for input fields
 col1, col2 = st.columns(2)
